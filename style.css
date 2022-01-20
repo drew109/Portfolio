@@ -95,17 +95,17 @@
         opacity: 1;
         color: #ffffff;
         cursor: pointer;
-        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        transition: .5s;
         -moz-animation: glow 1s ease-in-out infinite alternate;
         animation: glow 1s ease-in-out infinite alternate;
     }
     
     @keyframes glow {
         from {
-            text-shadow: 0 0 200px #fff, 0 0 200px #fff, 0 0 30px #14ff62, 0 0 40px #14ff62, 0 0 50px #14ff62, 0 0 60px #14ff62, 0 0 70px #14ff62;
+            text-shadow: 0 0 200px #14ff62, 0 0 200px #14ff62, 0 0 30px #14ff62, 0 0 40px #14ff62, 0 0 50px #14ff62, 0 0 60px #14ff62, 0 0 70px #14ff62;
         }
         to {
-            text-shadow: 0 0 200px #fff, 0 0 30px #00ff55, 0 0 40px #14ff62, 0 0 50px #14ff62, 0 0 60px #14ff62, 0 0 70px #14ff62, 0 0 80px #14ff62;
+            text-shadow: 0 0 200px #14ff62, 0 0 30px #00ff55, 0 0 40px #14ff62, 0 0 50px #14ff62, 0 0 60px #14ff62, 0 0 70px #14ff62, 0 0 80px #14ff62;
         }
     }
     
