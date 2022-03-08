@@ -1,0 +1,44 @@
+1642966902779	geckodriver	INFO	Listening on 127.0.0.1:58231
+1642966909455	mozrunner::runner	INFO	Running command: "C:\\Users\\andre\\Desktop\\Programs\\Tor Browser\\Browser\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileGT8Wbg"
+console.log: "TorConnect: Init"
+console.log: "TorConnect: observed profile-after-change"
+console.log: "TorConnect: legacyOrSystemTor()"
+console.log: "TorConnect: transitioning state from Initial to Disabled"
+1642966910685	Marionette	INFO	Marionette enabled
+JavaScript error: resource://torbutton/modules/tor-control-port.js, line 239: Error: authenticate 683626416c7075422e5a5b535a266f31 -> 515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+console.error: "Could not load engine blockchair-onion@search.mozilla.org: Error: Extension is invalid"
+JavaScript error: resource://gre/modules/XPCOMUtils.jsm, line 161: TypeError: Cc[aContract] is undefined
+JavaScript error: moz-extension://380a1357-8a03-4609-a7a7-b73e813a02c0/background-scripts/background.js, line 688: TypeError: store.local is undefined
+1642966911684	Marionette	INFO	Listening on port 58264
+JavaScript error: moz-extension://6fedd301-15f5-4ad4-ab90-695ec7d68cb6/nscl/common/SyncMessage.js, line 227: Error: Could not establish connection. Receiving end does not exist.
+1642966912101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1642966920601	Marionette	INFO	Stopped listening on port 58264
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://torbutton/modules/tor-control-port.js, line 81: NS_ERROR_OFFLINE: Component returned failure code: 0x804b0010 (NS_ERROR_OFFLINE) [nsIScriptableInputStream.available]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1642966967387	geckodriver	INFO	Listening on 127.0.0.1:61101
+1642966973854	mozrunner::runner	INFO	Running command: "C:\\Users\\andre\\Desktop\\Programs\\Tor Browser\\Browser\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilewRipym"
+console.log: "TorConnect: Init"
+console.log: "TorConnect: observed profile-after-change"
+console.log: "TorConnect: legacyOrSystemTor()"
+console.log: "TorConnect: transitioning state from Initial to Disabled"
+1642966974162	Marionette	INFO	Marionette enabled
+console.error: "Could not load engine blockchair-onion@search.mozilla.org: Error: Extension is invalid"
+JavaScript error: resource://torbutton/modules/tor-control-port.js, line 239: Error: authenticate 53715b36723739525f5a7241697b3d52 -> 515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+JavaScript error: resource://gre/modules/XPCOMUtils.jsm, line 161: TypeError: Cc[aContract] is undefined
+JavaScript error: moz-extension://6fedd301-15f5-4ad4-ab90-695ec7d68cb6/nscl/common/SyncMessage.js, line 227: Error: Could not establish connection. Receiving end does not exist.
+1642966976038	Marionette	INFO	Listening on port 61131
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 215: uncaught exception: Object
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 575: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1642966976500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642966985721	Marionette	INFO	Stopped listening on port 61131
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: moz-extension://6fedd301-15f5-4ad4-ab90-695ec7d68cb6/nscl/common/SyncMessage.js, line 256: TypeError: can't access dead object
+JavaScript error: resource://torbutton/modules/tor-control-port.js, line 81: NS_ERROR_OFFLINE: Component returned failure code: 0x804b0010 (NS_ERROR_OFFLINE) [nsIScriptableInputStream.available]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
